@@ -60,3 +60,8 @@ app.post("/messages", (req, res) => {
 app.listen(3000, () => {
   console.log("MCP server is running on port 3000");
 });
+
+// mcp.json
+// "my-mcp-weather": {
+//     "url": "http://localhost:3000/sse"
+//   }
